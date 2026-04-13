@@ -1,0 +1,32 @@
+# Secrets — NEVER commit keys
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated outputs (download from the app instead)
+outputs/inspection_plan.json
+outputs/trace_log.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Generated outputs (user downloads these in-app)
+outputs/inspection_plan.json
+outputs/trace_log.md
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

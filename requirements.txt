@@ -1,0 +1,25 @@
+# AI-Powered Quality Control Dashboard
+# Requirements for: Streamlit Multimodal Agentic Workflow
+# Install: pip install -r requirements.txt
+
+# ── Core UI ───────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Data handling ─────────────────────────────────────────────────────────────
+pandas>=2.0.0
+
+# ── PDF parsing (MIL-STD-105E) ────────────────────────────────────────────────
+pdfplumber>=0.11.0
+
+# ── VLM Provider SDKs (install the one(s) you need) ──────────────────────────
+
+# Groq  – free tier, no credit card required  https://console.groq.com
+groq>=0.9.0
+
+# Google Gemini – free tier via AI Studio    https://aistudio.google.com
+# Uses the new google-genai SDK (google-generativeai is deprecated)
+google-genai>=1.0.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+Pillow>=10.0.0        # Image handling / display helpers
+python-dotenv>=1.0.0  # Optional: load keys from a .env file
