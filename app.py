@@ -305,12 +305,31 @@ with st.sidebar:
         reset_workflow()
         st.rerun()
 
+    st.divider()
+    st.markdown("**👥 Team Members**")
+    st.markdown(
+        """
+        <small>
+        OJERINDE Joel Segun &nbsp;·&nbsp; LS2525253<br>
+        OGUNLADE Joshua Oluwaseun &nbsp;·&nbsp; LS2525237<br>
+        ABU-SAFIAN Fadlan &nbsp;·&nbsp; LS2525230
+        </small>
+        """,
+        unsafe_allow_html=True,
+    )
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Main Panel
 # ─────────────────────────────────────────────────────────────────────────────
 st.title("🤖 AI-Powered Quality Control Dashboard")
 st.caption(
     "Multimodal Agentic Workflow for Electronics Manufacturing  •  MIL-STD-105E Compliant")
+st.markdown(
+    "👥 **Team:** OJERINDE Joel Segun (LS2525253) &nbsp;|&nbsp; "
+    "OGUNLADE Joshua Oluwaseun (LS2525237) &nbsp;|&nbsp; "
+    "ABU-SAFIAN Fadlan (LS2525230)",
+    unsafe_allow_html=True,
+)
 
 tab_workflow, tab_bom, tab_plan, tab_trace = st.tabs(
     ["▶ Workflow", "📋 Bill of Materials", "📑 Inspection Plan", "📜 Trace Log"]

@@ -2,7 +2,9 @@
 
 ## Demo & Deployment Guide
 
----
+## [Deployment URL](https://ai-course-assignment-4.streamlit.app/)
+
+## [Github URL](https://github.com/Ojerinde/AI-Course-Assignment-4)
 
 ## Project Structure
 
